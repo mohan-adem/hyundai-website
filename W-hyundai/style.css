@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+
+}
+
+body{
+   font-family: 'Roboto', sans-serif;
+}
+.logoo {
+
+   border-radius:60%;
+   height: 115px;
+   width: 115px;
+
+}
+
+.hero{
+    height: 100vh;
+    background-color: whitesmoke;
+    width: 100%;
+    position: relative;
+
+
+}
+
+  .icon{
+   width: 20px;
+   height: 20px;
+   margin-right: -20px;
+   margin-bottom: 12px;
+
+  }
+
+nav{
+    display: flex;
+    width: 99.8%;
+    margin: auto;
+    justify-content: space-between;
+    padding: 20px 5px;
+    align-items: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    height: 20%;
+
+}
+
+
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    
+
+}
+
+nav ul li a{
+
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+
+    color: orange;
+}
+
+ .btn{
+    background-color: orange;
+   border: none;
+    padding: 4px;
+    height: 35px;
+    border-radius: 6px;
+    color: white;
+    margin-left: 20px;
+ }
+
+ .btn:hover{
+    background-color: rgba(255, 166, 0, 0.589);
+    transition: background-color 1s,
+    color 0.8s;
+    color: rgb(133, 112, 73);
+
+ }
+
+ .ak{
+    margin-left: 8%;
+    margin-top: 10%;
+    /* font-family: sans-serif; */
+ }
+
+span{
+    color: orange;
+  }
+
+ .ak h1{
+    font-size: 40px;
+    font-weight: bolder;
+    /* font-family: monospace; */
+
+ }
+
+ p{
+    margin-top: 4px;
+    font-weight: medium;
+    color: grey;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    
+ }
+
+ .ak a{
+    background-color: orange;
+    padding: 6px;
+    margin: 25px 0;
+    margin-bottom: 20px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+ }
+
+ .sawir{
+    right: 100px;
+    height: 80%;
+    width:45%;
+    bottom:0;
+    position: absolute;
+   padding: 2rem;
+    
+   
+    
+ }
+
+ .sawir img{
+    border-radius: 5px;
+ }
+
+ .sawir img:hover{
+    transform: translatex(30%) ;
+    transition:1s;
+    
+    
+ }
+
+  .orange{
+    color: rgb(160, 105, 4);
+  }
+
+   br{
+    margin-top: 5px;
+   }
+
+   .akk:hover{
+
+      background-color: white;
+      color: rgb(255, 0, 43);;
+      transition: background-color 1s,
+      color 1s;
+
+      transform: translatex(33%);
+      transition: 2s;
+
+   }
+   
+   /* abou us landing */
+
+   .about{
+      width: 100%;
+      padding: 78px 0px;
+      background-color: rgba(245, 245, 245, 0.603) ;
+   }
+
+   .about img{
+      height: auto;
+      width: 420px;
+      margin-left: 30px;
+      border-radius: 10px;
+   }
+   .about img:hover{
+      transform: translatex(+20%);
+      transition: 1s;
+   }
+
+   .about-text{
+      width: 550px;
+
+   }
+
+   .main{
+      width: 1130px;
+      max-width: 95%;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+   }
+
+   .about-text h1{
+      text-transform: capitalize;
+      font-size: 40px;
+      color: orange;
+      margin-left: 70px;
+
+   }
+
+   .about-text h1 span{
+      color:rgba(204, 133, 0, 0.699);
+   }
+
+   .about-text h5{
+      text-transform: capitalize;
+      font-size: 20px;
+      color: rgba(230, 154, 13, 0.623);
+      margin-top: 5px;
+      margin-left: 70px;
+      
+   }
+
+.qormo {
+      margin-left: 70px;
+      font-size: medium;
+      color:black;
+      letter-spacing: 0.5px;
+      font-family: 'Roboto', sans-serif;
+}
+
+.akkk{
+   border: none;
+   padding: 8px;
+   width: 12%;
+   margin-top: 20px;
+   background-color: orange;
+   color: white;
+   border-radius: 4px;
+}
+
+.akkk:hover{
+
+   background-color: whitesmoke;
+   color: rgb(255, 0, 43);
+   transition: background-color 1s,
+   color 1s;
+
+   transform: translatex(-33%);
+   transition: 2s;
+
+}
+
+.card{
+   width: 40%;
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+
+.card .image{
+    width: 100%;
+    height:40vh;
+
+}
+
+
+.card .image img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   border-radius: 13px;
+   
+}
+
+.card:hover{
+  transform: translatey(-30%);
+   transition: 1s,
+   color 0.7s;
+   animation: backwards;
+   
+  
+}
+
+.h-three{
+   text-align: center;
+   padding: 2rem;
+   margin: 20px;
+   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+   border-radius: 20px;
+   background-color: rgb(250, 239, 218);
+}
+
+.h-three:hover{
+   transition: 1s;
+   transform: translatey(-10%);
+}
+
+.cards{
+   display: flex;
+   justify-content: space-between;
+   gap: 3rem;
+padding: 10rem;
+background-color: whitesmoke;
+}
+
+.okos{
+   margin-top: 5px;
+   color: orange;
+   padding: 2rem;
+}
+
+.qoraal{
+   
+   margin-top: 10px;
+   text-align: center;
+   color: pink;
+}
+
+.one{
+   margin: 80px;
+}
+
+.ahum1{
+   
+   /* height: 40%; */
+   width: 100%;
+   margin: auto;
+   display: flex;
+   justify-content: space-between;
+   
+   padding: 20px 5px;
+   padding: 2rem;
+   align-items: center;
+   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+   height: 100%;
+   border-radius: 4rem;
+   gap: 2rem;
+   margin-top: 20px;
+   color: orange;
+   
+
+}
+
+
+.ahum1:hover{
+   transform: translatey(-5%);
+   transition: 1s,
+   color 1s;
+   background-color: antiquewhite;
+   color: black;
+
+   /* background-color: orange;
+   color: white; */
+}
+
+
+.sign{
+  
+   /* background-color: whitesmoke; */
+   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+   margin-top: 50px;
+   height: 60vh;
+ 
+}
+
+.imagee{
+   display: flex;
+   /* justify-content: center; */
+   border-radius: 1rem;
+   
+}
+
+.imagee img{
+  border-radius: 2rem;
+  margin-top: 10px;
+  margin-left: 10px ;
+  margin-right: 10px;
+  padding: 1rem;
+  
+}
+
+img{
+   border-radius: 1rem;
+   margin-bottom: 10px;
+}
+.imagee img p{
+   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+p{
+   margin-top: 20px;
+  
+}
+ .spec  {
+   text-align: justify;
+ }
+ .spec:hover{
+   background-color: rgb(245, 210, 157);
+   border-radius: 1rem;
+   color: rgb(14, 1, 1);
+   transform: translate(20px);
+   transition: background-color 2s,
+   color 0.7s;
+   transition: 1s;
+   padding: 1rem;
+ }
+
+.teext{
+   width: 40%;
+   margin-left: 40px;
+   margin-top: 40px;
+   height: 20px;
+}
