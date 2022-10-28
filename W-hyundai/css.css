@@ -1,0 +1,50 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: white;
+
+}
+
+.aboutusnav ul li {
+    display: flex;
+    justify-content: space-evenly;
+    gap:20px;
+    text-decoration-style: none;
+    margin-top: 50px;
+    text-decoration-style: none;
+}
+
+.aboutus{
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 30%;
+
+    /* display: flex;
+    justify-content: space-between; */
+}
+
+article{
+    width: 160%;
+    padding: 2rem;
+    height: 30%;
+
+    margin-top: 20px;
+    /* text-align: center; */
+    
+}
+
+span{
+    color: orange;
+}
+ 
+li a{
+    color: white;
+    text-decoration: none;
+    border-color: azure ;
+}
+

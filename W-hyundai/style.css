@@ -38,7 +38,7 @@ body{
 
 nav{
     display: flex;
-    width: 99.8%;
+    width: 99.99%;
     margin: auto;
     justify-content: space-between;
     padding: 20px 5px;
@@ -46,6 +46,11 @@ nav{
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     height: 20%;
 
+}
+
+.logoo nav ul li a{
+  width: 40%;
+  margin-top: 1rem;
 }
 
 
@@ -68,7 +73,18 @@ nav ul li a{
 nav ul li a:hover{
 
     color: orange;
+    transition: 0.5s;
 }
+
+/*   responsive nav bar */  
+  @media (max-width: 858px) {
+
+    .nav{
+      display: block;
+    }
+    
+  }
+/*  responsive end with nav bar*/
 
  .btn{
     background-color: orange;
