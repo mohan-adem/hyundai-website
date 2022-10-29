@@ -54,6 +54,10 @@ nav{
 }
 
 
+.home a{
+  color: orange;
+}
+
 
 nav ul li{
     display: inline-block;
@@ -81,6 +85,7 @@ nav ul li a:hover{
 
     .nav{
       display: block;
+      position: relative;
     }
     
   }

@@ -48,3 +48,17 @@ li a{
     border-color: azure ;
 }
 
+article{
+    background-color: aqua;
+    border-radius: 1rem;
+    color: black;
+    padding: 1rem;
+    margin-left: 4rem;
+
+}
+
+article:hover{
+    transform: translatex(20%);
+    transition: all 1s;
+}
+
